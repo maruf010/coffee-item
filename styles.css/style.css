@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* width: 1536px; */
+
+}
+nav ul {
+    display: flex;
+    /* background: rgb(144,93,93); */
+    opacity: 0.9;
+    padding: 10px;
+    justify-content: end;
+
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin-right: 30px;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: "Playwrite AU SA", serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+nav ul li a:hover{
+    background-color: rgb(191, 129, 85);
+    padding: 5px;
+    border-radius: 5px;
+}
+.container-1{
+    width: 1536px;
+
+    display: flex;
+    /* border: 5px solid red; */
+    /* background-color: rgb(38, 158, 118); */
+    height: 700px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+.container-1 > div{
+    /* border: 2px solid greenyellow; */
+    height: 150px;
+    width: 60%;
+    opacity: 0.9;
+    color: aliceblue;
+    /* font-family: "Playwrite AU SA", serif; */
+    /* font-family: "Rubik", serif; */
+
+}
+.hero img{
+    position: absolute;
+    height: 700px;
+    width: 1536px;
+}
+.hero{
+    height: 700px;
+}
+.hero-div{
+    /* border: 1px solid red; */
+}
+.head-bg{
+    font-size: 50px;
+    padding-left: 30px;
+    font-family: "Rubik", serif;
+}
+.p-bg{
+    font-size: 15px;
+    padding-left: 30px;
+    font-family: "Playwrite AU SA", serif;
+}
+.border-container{
+    /* border: 3px solid rgb(62, 12, 189); */
+    height: 700px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    
+}
+.container-brand{
+    /* border: 1px solid rgb(77, 203, 9); */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+
+}
+.container-brand > div {
+    /* border: 1px solid red; */
+    justify-content: center;
+    
+
+}
+.container-brand #coffee{
+    /* border: 1px solid red; */
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    box-shadow: 10px 10px 10px;
+    width: 280px;
+    border-radius: 0px 0px 40px 0px;
+}
+.container-brand #coffee img{
+    width: 280px;
+    height: 160px;
+}
+#coffee h3{
+    background-color: rgb(224, 174, 105);
+    margin-top: 10px;
+    padding: 5px;
+    color: rgb(5, 15, 24);
+    width: 200px;
+    border-radius: 20px 0px 0px 20px;
+
+}
+#coffee p{
+    margin-top: 10px;
+    font-family: "Playwrite AU SA", serif;
+    font-size: small;
+    padding: 5px;
+}
+#coffee button{
+    margin-top: 15px;
+    background-color: rgb(22, 172, 22);
+    color: azure;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+#coffee button:hover{
+    background-color: rgb(224, 38, 35);
+}
